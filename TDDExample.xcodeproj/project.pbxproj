@@ -15,6 +15,9 @@
 		05D6F3FC257265CD00D9E874 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D6F3FA257265CD00D9E874 /* LaunchScreen.storyboard */; };
 		05D6F407257265CE00D9E874 /* TDDExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6F406257265CE00D9E874 /* TDDExampleTests.swift */; };
 		05D6F412257265CE00D9E874 /* TDDExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6F411257265CE00D9E874 /* TDDExampleUITests.swift */; };
+		05D6F4202572660500D9E874 /* Dollar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6F41F2572660500D9E874 /* Dollar.swift */; };
+		05D6F4222572805E00D9E874 /* Frank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6F4212572805E00D9E874 /* Frank.swift */; };
+		05D6F4242572820200D9E874 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6F4232572820200D9E874 /* Money.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		05D6F40D257265CE00D9E874 /* TDDExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D6F411257265CE00D9E874 /* TDDExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDExampleUITests.swift; sourceTree = "<group>"; };
 		05D6F413257265CE00D9E874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05D6F41F2572660500D9E874 /* Dollar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dollar.swift; sourceTree = "<group>"; };
+		05D6F4212572805E00D9E874 /* Frank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frank.swift; sourceTree = "<group>"; };
+		05D6F4232572820200D9E874 /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				05D6F3F8257265CD00D9E874 /* Assets.xcassets */,
 				05D6F3FA257265CD00D9E874 /* LaunchScreen.storyboard */,
 				05D6F3FD257265CD00D9E874 /* Info.plist */,
+				05D6F4212572805E00D9E874 /* Frank.swift */,
+				05D6F4232572820200D9E874 /* Money.swift */,
+				05D6F41F2572660500D9E874 /* Dollar.swift */,
 			);
 			path = TDDExample;
 			sourceTree = "<group>";
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05D6F4242572820200D9E874 /* Money.swift in Sources */,
+				05D6F4222572805E00D9E874 /* Frank.swift in Sources */,
 				05D6F3F4257265C000D9E874 /* ViewController.swift in Sources */,
+				05D6F4202572660500D9E874 /* Dollar.swift in Sources */,
 				05D6F3F0257265C000D9E874 /* AppDelegate.swift in Sources */,
 				05D6F3F2257265C000D9E874 /* SceneDelegate.swift in Sources */,
 			);
