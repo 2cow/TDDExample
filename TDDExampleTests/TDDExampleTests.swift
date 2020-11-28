@@ -11,19 +11,7 @@ import XCTest
 
 class TDDExampleTests: XCTestCase {
     
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
     
-    func testMultiplication() throws {
-        let five = Money.dollar(amount: 5)
-        XCTAssertEqual(five.times(multipler: 2).amount,  Dollar(amount: 10).amount)
-        XCTAssertEqual(five.times(multipler: 3).amount, Dollar(amount: 15).amount)
-    }
     func testEquality() throws {
         XCTAssertTrue(Money.dollar(amount: 5).equals(money: Money.dollar(amount: 5)))
         XCTAssertFalse(Money.dollar(amount: 2).equals(money: Money.dollar(amount: 1)))
@@ -32,5 +20,19 @@ class TDDExampleTests: XCTestCase {
         XCTAssertTrue(Money.dollar(amount: 10).times(multipler: 2).equals(money: Money.franc(amount: 20)))
     }
     
+    func testCurrency() throws {
+        XCTAssertEqual("USD", Money.dollar(amount: 1).currency)
+        XCTAssertEqual("CHF", Money.franc(amount: 2).сurrencyName())
+        
+    }
+    
+    
+    func testPerformanceExample() throws {
+        // This is an example of a performance test case.
+        self.measure {
+            // Put the code you want to measure the time of here.
+        }
+    }
+
     
 }
