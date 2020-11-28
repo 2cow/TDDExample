@@ -8,8 +8,8 @@
 
 import Foundation
 
-class Money {
-    
+class Money  {
+  
     internal var amount : Int
     
     init(amount: Int) {
@@ -18,6 +18,16 @@ class Money {
     
     func equals(money: Money) -> Bool {
            let money = Money(amount: money.amount)
-           return amount == money.amount
-       }
+        return amount == money.amount 
+    }
+    
+    static func dollar(amount: Int) -> Dollar{
+        return Dollar(amount: amount)
+    }
+    
+    static func franc(amount: Int) -> Frank{
+        return Frank(amount: amount)
+    }
+    
+   
 }

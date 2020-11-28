@@ -10,8 +10,7 @@ import Foundation
 
 class Dollar : Money{
    
-    
-    func times(multipler: Int) -> Dollar{
+    func times(multipler: Int) -> Money{
         return Dollar(amount: multipler * amount)
     }
    

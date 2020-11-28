@@ -9,8 +9,8 @@
 import Foundation
 
 class Frank : Money {
-  
-    func times(multipler: Int) -> Frank{
+    
+    func times(multipler: Int) -> Money {
         return Frank(amount: multipler * amount)
     }
  
